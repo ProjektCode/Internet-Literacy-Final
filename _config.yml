@@ -3,8 +3,8 @@ email: ""
 description: >-
   A college-student-focused blog about using AI in education responsibly,
   thoughtfully, and without replacing real thinking.
-baseurl: ""
-url: ""
+url: "https://projektcode.github.io"
+baseurl: "/Internet-Literacy-Final"
 github_username: ProjektCode
 
 author:
