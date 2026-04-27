@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <p class="eyebrow">Internet Literacy Final Project</p>
+  <h1>{{ page.title | default: site.title }}</h1>
+  <p class="hero-copy">{{ page.description | default: site.description }}</p>
+</section>
+
+{% if content and content != "" %}
+  <section class="intro prose">
+    {{ content }}
+  </section>
+{% endif %}
+
+<section class="posts-section">
+  <div class="section-heading">
+    <h2>Recent Posts</h2>
+    <p>Short, student-focused reflections on learning with AI responsibly.</p>
+  </div>
+
+  {% if site.posts.size > 0 %}
+    {% include post-list.html posts=site.posts %}
+  {% else %}
+    <div class="empty-state">
+      <h3>No posts published yet</h3>
+      <p>The layout is ready. Add a post in <code>_posts/</code> to populate this list.</p>
+    </div>
+  {% endif %}
+</section>

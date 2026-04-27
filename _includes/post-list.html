@@ -1,0 +1,15 @@
+<div class="post-list" role="list">
+  {% for post in include.posts %}
+    <article class="post-list-item" role="listitem">
+      <div class="post-list-meta">
+        <p class="card-eyebrow">{{ post.categories | join: " • " }}</p>
+        <div class="card-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
+      </div>
+
+      <div class="post-list-body">
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p>{{ post.excerpt | strip_html | truncate: 190 }}</p>
+      </div>
+    </article>
+  {% endfor %}
+</div>

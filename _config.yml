@@ -1,0 +1,39 @@
+title: Learning with AI
+email: ""
+description: >-
+  A college-student-focused blog about using AI in education responsibly,
+  thoughtfully, and without replacing real thinking.
+baseurl: ""
+url: ""
+github_username: ProjektCode
+
+author:
+  name: Leonardo Marquez
+
+timezone: America/Los_Angeles
+permalink: /:categories/:title/
+future: true
+
+collections:
+  pages:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: Leonardo Marquez
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - README.md
+  - vendor/
+  - node_modules/
