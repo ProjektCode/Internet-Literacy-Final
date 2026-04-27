@@ -2,17 +2,17 @@
 ---
 
 :root {
-  --bg: #120d12;
-  --panel: rgba(27, 20, 28, 0.88);
-  --panel-2: rgba(35, 25, 36, 0.72);
-  --text: #f6edf2;
-  --muted: #c6b7c0;
-  --border: #3b2633;
-  --accent: #b11f3a;
-  --accent-strong: #d73252;
-  --accent-soft: rgba(215, 50, 82, 0.16);
-  --shadow: 0 12px 30px rgba(0, 0, 0, 0.22);
-  --radius: 18px;
+  --bg: #121212;
+  --panel: rgba(26, 26, 26, 0.92);
+  --panel-2: rgba(34, 34, 34, 0.78);
+  --text: #ffffff;
+  --muted: #dddddd;
+  --border: #2f2f2f;
+  --accent: #d9d9d9;
+  --accent-strong: #ffffff;
+  --accent-soft: rgba(255, 255, 255, 0.06);
+  --shadow: 0 14px 32px rgba(0, 0, 0, 0.24);
+  --radius: 20px;
   --content-width: 760px;
   --sidebar-width: 280px;
 }
@@ -30,14 +30,14 @@ body {
   margin: 0;
   min-height: 100vh;
   font-family: Inter, "Segoe UI", Arial, sans-serif;
-  background: linear-gradient(180deg, rgba(177, 31, 58, 0.08) 0%, #120d12 22%, #0f0b10 100%);
+  background: linear-gradient(180deg, #181818 0%, #131313 22%, #0f0f0f 100%);
   color: var(--text);
   line-height: 1.7;
 }
 
 a {
   color: var(--text);
-  text-decoration-color: var(--accent-strong);
+  text-decoration-color: rgba(255, 255, 255, 0.45);
   text-underline-offset: 0.2rem;
 }
 
@@ -62,7 +62,7 @@ a:hover {
 .page-content,
 .post-content,
 .site-footer {
-  background: rgba(27, 20, 28, 0.92);
+  background: rgba(24, 24, 24, 0.92);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
@@ -89,7 +89,7 @@ a:hover {
   position: sticky;
   top: 0;
   z-index: 10;
-  backdrop-filter: blur(12px);
+  backdrop-filter: blur(14px);
 }
 
 .brand-link {
@@ -110,6 +110,7 @@ a:hover {
   border: 1px solid var(--border);
   text-decoration: none;
   background: var(--panel-2);
+  transition: background 0.18s ease, border-color 0.18s ease, color 0.18s ease;
 }
 
 .site-frame {
@@ -141,7 +142,7 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: 0.12em;
   font-size: 0.76rem;
-  color: var(--accent-strong);
+  color: #d6d6d6;
   margin-bottom: 0.8rem;
 }
 
@@ -171,13 +172,16 @@ a:hover {
   padding: 0.8rem 0.95rem;
   border: 1px solid var(--border);
   border-radius: 14px;
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(255, 255, 255, 0.025);
   text-decoration: none;
+  transition: background 0.18s ease, border-color 0.18s ease, color 0.18s ease, transform 0.18s ease;
 }
 
 .sidebar-nav a:hover {
   color: #ffffff;
-  background: var(--accent-soft);
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.14);
+  transform: translateY(-1px);
 }
 
 .site-main {
@@ -190,7 +194,7 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: 0.12em;
   font-size: 0.76rem;
-  color: var(--accent-strong);
+  color: #d9d9d9;
   margin: 0 0 0.75rem;
 }
 
@@ -219,7 +223,7 @@ a:hover {
 .page-content,
 .post-content,
 .site-footer {
-  background: rgba(27, 20, 28, 0.86);
+  background: rgba(22, 22, 22, 0.88);
 }
 
 .post-content {
@@ -249,15 +253,15 @@ a:hover {
   border-radius: calc(var(--radius) - 2px);
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.08);
-  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 16px 38px rgba(0, 0, 0, 0.28);
 }
 
 .post-inline-graphic {
   padding: 1rem;
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(255, 255, 255, 0.02);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 16px;
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
 }
 
 .post-inline-graphic img {
@@ -304,7 +308,7 @@ a:hover {
 }
 
 .post-list-item h3 a:hover {
-  color: var(--accent-strong);
+  color: #ffffff;
 }
 
 .post-list-item p,
@@ -330,7 +334,7 @@ a:hover {
 }
 
 .prose code {
-  background: var(--accent-soft);
+  background: rgba(255, 255, 255, 0.04);
   border: 1px solid var(--border);
   padding: 0.1rem 0.35rem;
   border-radius: 0.45rem;
@@ -339,7 +343,7 @@ a:hover {
 blockquote {
   margin: 1.5rem 0;
   padding: 0.75rem 1rem;
-  border-left: 4px solid var(--accent);
+  border-left: 4px solid rgba(255, 255, 255, 0.4);
   background: rgba(255, 255, 255, 0.03);
 }
 

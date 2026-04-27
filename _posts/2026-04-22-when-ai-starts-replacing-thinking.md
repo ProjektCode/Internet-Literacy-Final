@@ -7,12 +7,14 @@ excerpt: Helpful tools can become harmful when convenience quietly replaces unde
 
 <figure class="post-hero-image">
   <img src="/assets/images/posts/post-02/Header.png" alt="Split-screen illustration showing AI as a helpful study tool on one side and unhealthy dependency on the other" />
+  <figcaption>A split-screen image with stronger contrast and color, showing the line between useful help and unhealthy dependence.</figcaption>
 </figure>
 
 AI can be a really helpful tool, but I believe there is a point where it could stop helping and end up replacing the thinking you are still supposed to be doing yourself. That is the part most people do not talk enough about. Most conversations about AI immediately jump to cheating or how you lose creativity, but I think the problem starts early on. I believe it’s more in a grey area where AI is not fully doing your assignments, but it does so much of the thinking part that you do not learn much in the process of using it.
 
 <figure class="post-inline-graphic">
   <img src="/assets/images/posts/post-02/Infographic%2001.png" alt="Infographic comparing productive AI use with AI replacing student thinking" />
+  <figcaption>A bold infographic that contrasts productive AI use with the point where AI starts doing too much of the thinking.</figcaption>
 </figure>
 
 A big reason why this happens is that AI feels productive, fast, and efficient. So when you feel tired, busy, or even overwhelmed, it feels better and easier to just let AI do everything for you. The downside to this is that even though at that moment it would seem you are doing something very efficient, and that might work in the short term, but in the long term, it will do more harm than good. That’s because you did not learn any of the material needed to do the assignment, and when it’s needed in either an exam or in the real world, you won’t be able to recall that material.
@@ -23,6 +25,7 @@ That is why I believe that the danger is not necessarily cheating, even though t
 
 <figure class="post-inline-graphic">
   <img src="/assets/images/posts/post-02/Infographic%2002.png" alt="Infographic showing signs that AI is becoming a crutch for students" />
+  <figcaption>A brighter warning-style graphic that highlights the signs that AI is becoming a crutch instead of a support tool.</figcaption>
 </figure>
 
 I noticed that this is what makes AI tricky. It is not always obviously bad, and in fact, it will often feel like it’s helping because the AI’s tone is mostly helpful and confident. That is what makes the grey area so easy to fall into. I noticed firsthand that over-relying on AI can even dull your memory because I was no longer remembering the basics and having the AI do it for me, and that is the problem because the end goal is to become stronger on your own, not to become dependent on the tool.
@@ -31,6 +34,7 @@ What I think is the best way to avoid this is to pay attention to how you are us
 
 <figure class="post-inline-graphic">
   <img src="/assets/images/posts/post-02/Infographic%2003.png" alt="Infographic showing how students can pull back before AI dependency gets worse" />
+  <figcaption>A colorful step-by-step reminder that students can pull back and reset their habits before AI dependence gets worse.</figcaption>
 </figure>
 
 With all that being said, the biggest problem when it comes to AI may not be cheating but over-reliance on AI. When that happens and keeps happening, you may finish the work, but you won’t end up building the skills needed to use in the real world, because who knows, your workplace may have a ban on the use of AI or flat out reject you if they find you being over-reliant on it.
