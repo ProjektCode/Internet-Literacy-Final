@@ -6,14 +6,14 @@ excerpt: Helpful tools can become harmful when convenience quietly replaces unde
 ---
 
 <figure class="post-hero-image">
-  <img src="/assets/images/posts/post-02/Header.png" alt="Split-screen illustration showing AI as a helpful study tool on one side and unhealthy dependency on the other" />
+  <img src="{{ '/assets/images/posts/post-02/Header.png' | relative_url }}" alt="Split-screen illustration showing AI as a helpful study tool on one side and unhealthy dependency on the other" />
   <figcaption>A split-screen image with stronger contrast and color, showing the line between useful help and unhealthy dependence.</figcaption>
 </figure>
 
 AI can be a really helpful tool, but I believe there is a point where it could stop helping and end up replacing the thinking you are still supposed to be doing yourself. That is the part most people do not talk enough about. Most conversations about AI immediately jump to cheating or how you lose creativity, but I think the problem starts early on. I believe it’s more in a grey area where AI is not fully doing your assignments, but it does so much of the thinking part that you do not learn much in the process of using it.
 
 <figure class="post-inline-graphic">
-  <img src="/assets/images/posts/post-02/Infographic%2001.png" alt="Infographic comparing productive AI use with AI replacing student thinking" />
+  <img src="{{ '/assets/images/posts/post-02/Infographic%2001.png' | relative_url }}" alt="Infographic comparing productive AI use with AI replacing student thinking" />
   <figcaption>A bold infographic that contrasts productive AI use with the point where AI starts doing too much of the thinking.</figcaption>
 </figure>
 
@@ -24,7 +24,7 @@ This will end up showing the most when students let the AI do entire projects or
 That is why I believe that the danger is not necessarily cheating, even though that is still bad, but the over-reliance on AI. If you keep turning to AI the moment you get stuck without at least trying by yourself, you will then stop building the habit of learning and instead rely on AI to do it for you. Over time, with overreliance on AI, your critical thinking will weaken because you won’t be able to think and generate ideas on your own. On top of all that, AI is built on algorithms and data within a given time period. Since it’s built on those things, it can get things wrong pretty easily, and if you do not call it out, saying it is wrong, it will go along with it and continue to state the incorrect information, and you won’t know the difference.
 
 <figure class="post-inline-graphic">
-  <img src="/assets/images/posts/post-02/Infographic%2002.png" alt="Infographic showing signs that AI is becoming a crutch for students" />
+  <img src="{{ '/assets/images/posts/post-02/Infographic%2002.png' | relative_url }}" alt="Infographic showing signs that AI is becoming a crutch for students" />
   <figcaption>A brighter warning-style graphic that highlights the signs that AI is becoming a crutch instead of a support tool.</figcaption>
 </figure>
 
@@ -33,7 +33,7 @@ I noticed that this is what makes AI tricky. It is not always obviously bad, and
 What I think is the best way to avoid this is to pay attention to how you are using AI, and if you think AI is no longer helping you but thinking for you, it is time to step back and rethink the process. If you are using it to simplify complex concepts, give you examples of something, etc., then it is useful to you, but if it’s constantly planning out assignments, solving problems for you, or making its own decisions when you should, then that is when the tool is becoming a crutch instead of being a support. The AI should be supporting your effort, not replacing it.
 
 <figure class="post-inline-graphic">
-  <img src="/assets/images/posts/post-02/Infographic%2003.png" alt="Infographic showing how students can pull back before AI dependency gets worse" />
+  <img src="{{ '/assets/images/posts/post-02/Infographic%2003.png' | relative_url }}" alt="Infographic showing how students can pull back before AI dependency gets worse" />
   <figcaption>A colorful step-by-step reminder that students can pull back and reset their habits before AI dependence gets worse.</figcaption>
 </figure>
 
